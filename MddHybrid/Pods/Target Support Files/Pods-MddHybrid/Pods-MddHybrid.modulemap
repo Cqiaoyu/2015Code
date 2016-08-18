@@ -1,0 +1,6 @@
+framework module Pods_MddHybrid {
+  umbrella header "Pods-MddHybrid-umbrella.h"
+
+  export *
+  module * { export * }
+}

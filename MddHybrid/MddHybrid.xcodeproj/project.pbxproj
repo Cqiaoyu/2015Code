@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		855C24C51D644A130042D9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C24C41D644A130042D9AD /* main.m */; };
+		855C24C81D644A130042D9AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C24C71D644A130042D9AD /* AppDelegate.m */; };
+		855C24CB1D644A130042D9AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C24CA1D644A130042D9AD /* ViewController.m */; };
+		855C24CE1D644A130042D9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855C24CC1D644A130042D9AD /* Main.storyboard */; };
+		855C24D01D644A130042D9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855C24CF1D644A130042D9AD /* Assets.xcassets */; };
+		855C24D31D644A130042D9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855C24D11D644A130042D9AD /* LaunchScreen.storyboard */; };
+		855C24DE1D644A130042D9AD /* MddHybridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C24DD1D644A130042D9AD /* MddHybridTests.m */; };
+		855C24E91D644A130042D9AD /* MddHybridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C24E81D644A130042D9AD /* MddHybridUITests.m */; };
+		855C25621D647D670042D9AD /* appHeadStore.zip in Resources */ = {isa = PBXBuildFile; fileRef = 855C25611D647D670042D9AD /* appHeadStore.zip */; };
+		85E5ADA01D65457500B3B8BA /* MddHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E5AD9F1D65457500B3B8BA /* MddHybrid.m */; };
+		DBB76A7AC87545D37C15D9DD /* Pods_MddHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690DFBD5628823EA047219F0 /* Pods_MddHybrid.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		855C24DA1D644A130042D9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855C24B81D644A130042D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855C24BF1D644A130042D9AD;
+			remoteInfo = MddHybrid;
+		};
+		855C24E51D644A130042D9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855C24B81D644A130042D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855C24BF1D644A130042D9AD;
+			remoteInfo = MddHybrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3724749EDD23A6C13242EE03 /* Pods-MddHybrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MddHybrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MddHybrid/Pods-MddHybrid.debug.xcconfig"; sourceTree = "<group>"; };
+		690DFBD5628823EA047219F0 /* Pods_MddHybrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MddHybrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855C24C01D644A130042D9AD /* MddHybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MddHybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		855C24C41D644A130042D9AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		855C24C61D644A130042D9AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		855C24C71D644A130042D9AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		855C24C91D644A130042D9AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		855C24CA1D644A130042D9AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		855C24CD1D644A130042D9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		855C24CF1D644A130042D9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		855C24D21D644A130042D9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		855C24D41D644A130042D9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855C24D91D644A130042D9AD /* MddHybridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MddHybridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		855C24DD1D644A130042D9AD /* MddHybridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MddHybridTests.m; sourceTree = "<group>"; };
+		855C24DF1D644A130042D9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855C24E41D644A130042D9AD /* MddHybridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MddHybridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		855C24E81D644A130042D9AD /* MddHybridUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MddHybridUITests.m; sourceTree = "<group>"; };
+		855C24EA1D644A140042D9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855C25611D647D670042D9AD /* appHeadStore.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = appHeadStore.zip; sourceTree = "<group>"; };
+		85E5AD9E1D65457500B3B8BA /* MddHybrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MddHybrid.h; sourceTree = "<group>"; };
+		85E5AD9F1D65457500B3B8BA /* MddHybrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MddHybrid.m; sourceTree = "<group>"; };
+		DD081C2F1910B402CCA8E4A4 /* Pods-MddHybrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MddHybrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-MddHybrid/Pods-MddHybrid.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855C24BD1D644A130042D9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB76A7AC87545D37C15D9DD /* Pods_MddHybrid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855C24D61D644A130042D9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855C24E11D644A130042D9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EE6F559A097AA11776715B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3724749EDD23A6C13242EE03 /* Pods-MddHybrid.debug.xcconfig */,
+				DD081C2F1910B402CCA8E4A4 /* Pods-MddHybrid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		855C24B71D644A130042D9AD = {
+			isa = PBXGroup;
+			children = (
+				855C24C21D644A130042D9AD /* MddHybrid */,
+				855C24DC1D644A130042D9AD /* MddHybridTests */,
+				855C24E71D644A130042D9AD /* MddHybridUITests */,
+				855C24C11D644A130042D9AD /* Products */,
+				5EE6F559A097AA11776715B9 /* Pods */,
+				E2B84D0D3BE31D199BF41180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		855C24C11D644A130042D9AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855C24C01D644A130042D9AD /* MddHybrid.app */,
+				855C24D91D644A130042D9AD /* MddHybridTests.xctest */,
+				855C24E41D644A130042D9AD /* MddHybridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855C24C21D644A130042D9AD /* MddHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				855C24C61D644A130042D9AD /* AppDelegate.h */,
+				855C24C71D644A130042D9AD /* AppDelegate.m */,
+				85E5AD9E1D65457500B3B8BA /* MddHybrid.h */,
+				85E5AD9F1D65457500B3B8BA /* MddHybrid.m */,
+				855C24C91D644A130042D9AD /* ViewController.h */,
+				855C24CA1D644A130042D9AD /* ViewController.m */,
+				855C25611D647D670042D9AD /* appHeadStore.zip */,
+				855C24CC1D644A130042D9AD /* Main.storyboard */,
+				855C24CF1D644A130042D9AD /* Assets.xcassets */,
+				855C24D11D644A130042D9AD /* LaunchScreen.storyboard */,
+				855C24D41D644A130042D9AD /* Info.plist */,
+				855C24C31D644A130042D9AD /* Supporting Files */,
+			);
+			path = MddHybrid;
+			sourceTree = "<group>";
+		};
+		855C24C31D644A130042D9AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				855C24C41D644A130042D9AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		855C24DC1D644A130042D9AD /* MddHybridTests */ = {
+			isa = PBXGroup;
+			children = (
+				855C24DD1D644A130042D9AD /* MddHybridTests.m */,
+				855C24DF1D644A130042D9AD /* Info.plist */,
+			);
+			path = MddHybridTests;
+			sourceTree = "<group>";
+		};
+		855C24E71D644A130042D9AD /* MddHybridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				855C24E81D644A130042D9AD /* MddHybridUITests.m */,
+				855C24EA1D644A140042D9AD /* Info.plist */,
+			);
+			path = MddHybridUITests;
+			sourceTree = "<group>";
+		};
+		E2B84D0D3BE31D199BF41180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690DFBD5628823EA047219F0 /* Pods_MddHybrid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		855C24BF1D644A130042D9AD /* MddHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855C24ED1D644A140042D9AD /* Build configuration list for PBXNativeTarget "MddHybrid" */;
+			buildPhases = (
+				B145305980DBC4CE5C93965D /* [CP] Check Pods Manifest.lock */,
+				855C24BC1D644A130042D9AD /* Sources */,
+				855C24BD1D644A130042D9AD /* Frameworks */,
+				855C24BE1D644A130042D9AD /* Resources */,
+				F6A833DD65E3F97B96ECE9EC /* [CP] Embed Pods Frameworks */,
+				7BEC4018FE9BC293DF75933F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MddHybrid;
+			productName = MddHybrid;
+			productReference = 855C24C01D644A130042D9AD /* MddHybrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		855C24D81D644A130042D9AD /* MddHybridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855C24F01D644A140042D9AD /* Build configuration list for PBXNativeTarget "MddHybridTests" */;
+			buildPhases = (
+				855C24D51D644A130042D9AD /* Sources */,
+				855C24D61D644A130042D9AD /* Frameworks */,
+				855C24D71D644A130042D9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855C24DB1D644A130042D9AD /* PBXTargetDependency */,
+			);
+			name = MddHybridTests;
+			productName = MddHybridTests;
+			productReference = 855C24D91D644A130042D9AD /* MddHybridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		855C24E31D644A130042D9AD /* MddHybridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855C24F31D644A140042D9AD /* Build configuration list for PBXNativeTarget "MddHybridUITests" */;
+			buildPhases = (
+				855C24E01D644A130042D9AD /* Sources */,
+				855C24E11D644A130042D9AD /* Frameworks */,
+				855C24E21D644A130042D9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855C24E61D644A130042D9AD /* PBXTargetDependency */,
+			);
+			name = MddHybridUITests;
+			productName = MddHybridUITests;
+			productReference = 855C24E41D644A130042D9AD /* MddHybridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		855C24B81D644A130042D9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Kenway;
+				TargetAttributes = {
+					855C24BF1D644A130042D9AD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					855C24D81D644A130042D9AD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 855C24BF1D644A130042D9AD;
+					};
+					855C24E31D644A130042D9AD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 855C24BF1D644A130042D9AD;
+					};
+				};
+			};
+			buildConfigurationList = 855C24BB1D644A130042D9AD /* Build configuration list for PBXProject "MddHybrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 855C24B71D644A130042D9AD;
+			productRefGroup = 855C24C11D644A130042D9AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855C24BF1D644A130042D9AD /* MddHybrid */,
+				855C24D81D644A130042D9AD /* MddHybridTests */,
+				855C24E31D644A130042D9AD /* MddHybridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855C24BE1D644A130042D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855C24D31D644A130042D9AD /* LaunchScreen.storyboard in Resources */,
+				855C25621D647D670042D9AD /* appHeadStore.zip in Resources */,
+				855C24D01D644A130042D9AD /* Assets.xcassets in Resources */,
+				855C24CE1D644A130042D9AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855C24D71D644A130042D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855C24E21D644A130042D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BEC4018FE9BC293DF75933F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MddHybrid/Pods-MddHybrid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B145305980DBC4CE5C93965D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A833DD65E3F97B96ECE9EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MddHybrid/Pods-MddHybrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855C24BC1D644A130042D9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855C24CB1D644A130042D9AD /* ViewController.m in Sources */,
+				85E5ADA01D65457500B3B8BA /* MddHybrid.m in Sources */,
+				855C24C81D644A130042D9AD /* AppDelegate.m in Sources */,
+				855C24C51D644A130042D9AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855C24D51D644A130042D9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855C24DE1D644A130042D9AD /* MddHybridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855C24E01D644A130042D9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855C24E91D644A130042D9AD /* MddHybridUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		855C24DB1D644A130042D9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855C24BF1D644A130042D9AD /* MddHybrid */;
+			targetProxy = 855C24DA1D644A130042D9AD /* PBXContainerItemProxy */;
+		};
+		855C24E61D644A130042D9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855C24BF1D644A130042D9AD /* MddHybrid */;
+			targetProxy = 855C24E51D644A130042D9AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		855C24CC1D644A130042D9AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855C24CD1D644A130042D9AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		855C24D11D644A130042D9AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855C24D21D644A130042D9AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		855C24EB1D644A140042D9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		855C24EC1D644A140042D9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		855C24EE1D644A140042D9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3724749EDD23A6C13242EE03 /* Pods-MddHybrid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MddHybrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenway.MddHybrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		855C24EF1D644A140042D9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD081C2F1910B402CCA8E4A4 /* Pods-MddHybrid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MddHybrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenway.MddHybrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		855C24F11D644A140042D9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MddHybridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenway.MddHybridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MddHybrid.app/MddHybrid";
+			};
+			name = Debug;
+		};
+		855C24F21D644A140042D9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MddHybridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenway.MddHybridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MddHybrid.app/MddHybrid";
+			};
+			name = Release;
+		};
+		855C24F41D644A140042D9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MddHybridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenway.MddHybridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MddHybrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		855C24F51D644A140042D9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MddHybridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenway.MddHybridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MddHybrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		855C24BB1D644A130042D9AD /* Build configuration list for PBXProject "MddHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855C24EB1D644A140042D9AD /* Debug */,
+				855C24EC1D644A140042D9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855C24ED1D644A140042D9AD /* Build configuration list for PBXNativeTarget "MddHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855C24EE1D644A140042D9AD /* Debug */,
+				855C24EF1D644A140042D9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855C24F01D644A140042D9AD /* Build configuration list for PBXNativeTarget "MddHybridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855C24F11D644A140042D9AD /* Debug */,
+				855C24F21D644A140042D9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855C24F31D644A140042D9AD /* Build configuration list for PBXNativeTarget "MddHybridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855C24F41D644A140042D9AD /* Debug */,
+				855C24F51D644A140042D9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 855C24B81D644A130042D9AD /* Project object */;
+}
