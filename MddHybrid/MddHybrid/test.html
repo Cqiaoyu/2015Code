@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" charset="utf-8">
+<head>
+	<title>测试</title>
+</head>
+<script type="text/javascript">
+function setupWebViewJavascriptBridge(callback) {
+    
+    if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+    if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+    window.WVJBCallbacks = [callback];
+    
+    var WVJBIframe = document.createElement('iframe');
+    WVJBIframe.style.display = 'none';
+    WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+    document.documentElement.appendChild(WVJBIframe);
+    setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+}
+setupWebViewJavascriptBridge(function(bridge) {
+    document.getElementById('js_oc').onclick = function (responseData) {
+        bridge.callHandler('picture',{'url':'http://tios.meididi88.com/office.php/v1/Test/index','parameters':{}},function (response) {
+    		alert('html_js调用oc的callback:'+ response);
+            
+    }
+    bridge.registerHandler('oc_call_js', function(data, responseCallback) {
+            console.log("oc_call_js_html:", data)
+            alert('oc-js:'+data.test);
+            responseCallback(data);
+    })
+})
+</script>
+<body>
+<div>
+       <input type="button" value="js调oc" id="js_oc"/>
+</div>
+</body>
+</html>>

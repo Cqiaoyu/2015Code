@@ -16,7 +16,24 @@
 		855C24DE1D644A130042D9AD /* MddHybridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C24DD1D644A130042D9AD /* MddHybridTests.m */; };
 		855C24E91D644A130042D9AD /* MddHybridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C24E81D644A130042D9AD /* MddHybridUITests.m */; };
 		855C25621D647D670042D9AD /* appHeadStore.zip in Resources */ = {isa = PBXBuildFile; fileRef = 855C25611D647D670042D9AD /* appHeadStore.zip */; };
-		85E5ADA01D65457500B3B8BA /* MddHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E5AD9F1D65457500B3B8BA /* MddHybrid.m */; };
+		85CC7D821D66A13E00B56751 /* CKHScanQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC7D811D66A13E00B56751 /* CKHScanQRCodeVC.m */; };
+		85CC7D8F1D66A1BC00B56751 /* scanBottomLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D851D66A1BC00B56751 /* scanBottomLeft@2x.png */; };
+		85CC7D901D66A1BC00B56751 /* scanBottomLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D861D66A1BC00B56751 /* scanBottomLeft@3x.png */; };
+		85CC7D911D66A1BC00B56751 /* scanBottomRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D871D66A1BC00B56751 /* scanBottomRight@2x.png */; };
+		85CC7D921D66A1BC00B56751 /* scanBottomRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D881D66A1BC00B56751 /* scanBottomRight@3x.png */; };
+		85CC7D931D66A1BC00B56751 /* scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D891D66A1BC00B56751 /* scanLine@2x.png */; };
+		85CC7D941D66A1BC00B56751 /* scanLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D8A1D66A1BC00B56751 /* scanLine@3x.png */; };
+		85CC7D951D66A1BC00B56751 /* scanTopLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D8B1D66A1BC00B56751 /* scanTopLeft@2x.png */; };
+		85CC7D961D66A1BC00B56751 /* scanTopLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D8C1D66A1BC00B56751 /* scanTopLeft@3x.png */; };
+		85CC7D971D66A1BC00B56751 /* scanTopRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D8D1D66A1BC00B56751 /* scanTopRight@2x.png */; };
+		85CC7D981D66A1BC00B56751 /* scanTopRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7D8E1D66A1BC00B56751 /* scanTopRight@3x.png */; };
+		85CF01441D6A9F1F003D763F /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 85CF01431D6A9F1F003D763F /* test.html */; };
+		85CF01471D6AE3F7003D763F /* JolyviaAccesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CF01461D6AE3F7003D763F /* JolyviaAccesser.m */; };
+		85CF014A1D6AE468003D763F /* NSString+Jolyvia.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CF01491D6AE468003D763F /* NSString+Jolyvia.m */; };
+		85CF014D1D6AE49E003D763F /* NSDate+LocalDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CF014C1D6AE49E003D763F /* NSDate+LocalDate.m */; };
+		85CF014F1D6C23D4003D763F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85CF014E1D6C23D4003D763F /* README.txt */; };
+		85CF01521D6C4950003D763F /* index.zip in Resources */ = {isa = PBXBuildFile; fileRef = 85CF01511D6C4950003D763F /* index.zip */; };
+		85E5ADA01D65457500B3B8BA /* MddHybridAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E5AD9F1D65457500B3B8BA /* MddHybridAPI.m */; };
 		DBB76A7AC87545D37C15D9DD /* Pods_MddHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690DFBD5628823EA047219F0 /* Pods_MddHybrid.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +74,30 @@
 		855C24E81D644A130042D9AD /* MddHybridUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MddHybridUITests.m; sourceTree = "<group>"; };
 		855C24EA1D644A140042D9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		855C25611D647D670042D9AD /* appHeadStore.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = appHeadStore.zip; sourceTree = "<group>"; };
-		85E5AD9E1D65457500B3B8BA /* MddHybrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MddHybrid.h; sourceTree = "<group>"; };
-		85E5AD9F1D65457500B3B8BA /* MddHybrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MddHybrid.m; sourceTree = "<group>"; };
+		85CC7D801D66A13E00B56751 /* CKHScanQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKHScanQRCodeVC.h; sourceTree = "<group>"; };
+		85CC7D811D66A13E00B56751 /* CKHScanQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKHScanQRCodeVC.m; sourceTree = "<group>"; };
+		85CC7D851D66A1BC00B56751 /* scanBottomLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanBottomLeft@2x.png"; sourceTree = "<group>"; };
+		85CC7D861D66A1BC00B56751 /* scanBottomLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanBottomLeft@3x.png"; sourceTree = "<group>"; };
+		85CC7D871D66A1BC00B56751 /* scanBottomRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanBottomRight@2x.png"; sourceTree = "<group>"; };
+		85CC7D881D66A1BC00B56751 /* scanBottomRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanBottomRight@3x.png"; sourceTree = "<group>"; };
+		85CC7D891D66A1BC00B56751 /* scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@2x.png"; sourceTree = "<group>"; };
+		85CC7D8A1D66A1BC00B56751 /* scanLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@3x.png"; sourceTree = "<group>"; };
+		85CC7D8B1D66A1BC00B56751 /* scanTopLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanTopLeft@2x.png"; sourceTree = "<group>"; };
+		85CC7D8C1D66A1BC00B56751 /* scanTopLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanTopLeft@3x.png"; sourceTree = "<group>"; };
+		85CC7D8D1D66A1BC00B56751 /* scanTopRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanTopRight@2x.png"; sourceTree = "<group>"; };
+		85CC7D8E1D66A1BC00B56751 /* scanTopRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanTopRight@3x.png"; sourceTree = "<group>"; };
+		85CF01431D6A9F1F003D763F /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		85CF01451D6AE3F7003D763F /* JolyviaAccesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JolyviaAccesser.h; sourceTree = "<group>"; };
+		85CF01461D6AE3F7003D763F /* JolyviaAccesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JolyviaAccesser.m; sourceTree = "<group>"; };
+		85CF01481D6AE468003D763F /* NSString+Jolyvia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Jolyvia.h"; sourceTree = "<group>"; };
+		85CF01491D6AE468003D763F /* NSString+Jolyvia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Jolyvia.m"; sourceTree = "<group>"; };
+		85CF014B1D6AE49E003D763F /* NSDate+LocalDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LocalDate.h"; sourceTree = "<group>"; };
+		85CF014C1D6AE49E003D763F /* NSDate+LocalDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LocalDate.m"; sourceTree = "<group>"; };
+		85CF014E1D6C23D4003D763F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		85CF01501D6C24C6003D763F /* MddHybridAPIDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MddHybridAPIDefinition.h; sourceTree = "<group>"; };
+		85CF01511D6C4950003D763F /* index.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = index.zip; sourceTree = "<group>"; };
+		85E5AD9E1D65457500B3B8BA /* MddHybridAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MddHybridAPI.h; sourceTree = "<group>"; };
+		85E5AD9F1D65457500B3B8BA /* MddHybridAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MddHybridAPI.m; sourceTree = "<group>"; };
 		DD081C2F1910B402CCA8E4A4 /* Pods-MddHybrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MddHybrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-MddHybrid/Pods-MddHybrid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,13 +161,14 @@
 		855C24C21D644A130042D9AD /* MddHybrid */ = {
 			isa = PBXGroup;
 			children = (
+				85CC7D7F1D669FBC00B56751 /* MddHybridFrame */,
 				855C24C61D644A130042D9AD /* AppDelegate.h */,
 				855C24C71D644A130042D9AD /* AppDelegate.m */,
-				85E5AD9E1D65457500B3B8BA /* MddHybrid.h */,
-				85E5AD9F1D65457500B3B8BA /* MddHybrid.m */,
 				855C24C91D644A130042D9AD /* ViewController.h */,
 				855C24CA1D644A130042D9AD /* ViewController.m */,
 				855C25611D647D670042D9AD /* appHeadStore.zip */,
+				85CF01511D6C4950003D763F /* index.zip */,
+				85CF01431D6A9F1F003D763F /* test.html */,
 				855C24CC1D644A130042D9AD /* Main.storyboard */,
 				855C24CF1D644A130042D9AD /* Assets.xcassets */,
 				855C24D11D644A130042D9AD /* LaunchScreen.storyboard */,
@@ -162,6 +202,51 @@
 				855C24EA1D644A140042D9AD /* Info.plist */,
 			);
 			path = MddHybridUITests;
+			sourceTree = "<group>";
+		};
+		85CC7D7F1D669FBC00B56751 /* MddHybridFrame */ = {
+			isa = PBXGroup;
+			children = (
+				85CF014E1D6C23D4003D763F /* README.txt */,
+				85CC7D831D66A18B00B56751 /* Sources */,
+				85CF01501D6C24C6003D763F /* MddHybridAPIDefinition.h */,
+				85E5AD9E1D65457500B3B8BA /* MddHybridAPI.h */,
+				85E5AD9F1D65457500B3B8BA /* MddHybridAPI.m */,
+				85CF01451D6AE3F7003D763F /* JolyviaAccesser.h */,
+				85CF01461D6AE3F7003D763F /* JolyviaAccesser.m */,
+				85CF01481D6AE468003D763F /* NSString+Jolyvia.h */,
+				85CF01491D6AE468003D763F /* NSString+Jolyvia.m */,
+				85CF014B1D6AE49E003D763F /* NSDate+LocalDate.h */,
+				85CF014C1D6AE49E003D763F /* NSDate+LocalDate.m */,
+				85CC7D801D66A13E00B56751 /* CKHScanQRCodeVC.h */,
+				85CC7D811D66A13E00B56751 /* CKHScanQRCodeVC.m */,
+			);
+			name = MddHybridFrame;
+			sourceTree = "<group>";
+		};
+		85CC7D831D66A18B00B56751 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				85CC7D841D66A1AA00B56751 /* ScanUI */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		85CC7D841D66A1AA00B56751 /* ScanUI */ = {
+			isa = PBXGroup;
+			children = (
+				85CC7D851D66A1BC00B56751 /* scanBottomLeft@2x.png */,
+				85CC7D861D66A1BC00B56751 /* scanBottomLeft@3x.png */,
+				85CC7D871D66A1BC00B56751 /* scanBottomRight@2x.png */,
+				85CC7D881D66A1BC00B56751 /* scanBottomRight@3x.png */,
+				85CC7D891D66A1BC00B56751 /* scanLine@2x.png */,
+				85CC7D8A1D66A1BC00B56751 /* scanLine@3x.png */,
+				85CC7D8B1D66A1BC00B56751 /* scanTopLeft@2x.png */,
+				85CC7D8C1D66A1BC00B56751 /* scanTopLeft@3x.png */,
+				85CC7D8D1D66A1BC00B56751 /* scanTopRight@2x.png */,
+				85CC7D8E1D66A1BC00B56751 /* scanTopRight@3x.png */,
+			);
+			name = ScanUI;
 			sourceTree = "<group>";
 		};
 		E2B84D0D3BE31D199BF41180 /* Frameworks */ = {
@@ -279,9 +364,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				855C24D31D644A130042D9AD /* LaunchScreen.storyboard in Resources */,
+				85CC7D8F1D66A1BC00B56751 /* scanBottomLeft@2x.png in Resources */,
+				85CC7D971D66A1BC00B56751 /* scanTopRight@2x.png in Resources */,
+				85CC7D901D66A1BC00B56751 /* scanBottomLeft@3x.png in Resources */,
+				85CC7D951D66A1BC00B56751 /* scanTopLeft@2x.png in Resources */,
 				855C25621D647D670042D9AD /* appHeadStore.zip in Resources */,
+				85CF014F1D6C23D4003D763F /* README.txt in Resources */,
+				85CF01521D6C4950003D763F /* index.zip in Resources */,
+				85CC7D921D66A1BC00B56751 /* scanBottomRight@3x.png in Resources */,
 				855C24D01D644A130042D9AD /* Assets.xcassets in Resources */,
+				85CF01441D6A9F1F003D763F /* test.html in Resources */,
+				85CC7D961D66A1BC00B56751 /* scanTopLeft@3x.png in Resources */,
+				85CC7D941D66A1BC00B56751 /* scanLine@3x.png in Resources */,
 				855C24CE1D644A130042D9AD /* Main.storyboard in Resources */,
+				85CC7D911D66A1BC00B56751 /* scanBottomRight@2x.png in Resources */,
+				85CC7D931D66A1BC00B56751 /* scanLine@2x.png in Resources */,
+				85CC7D981D66A1BC00B56751 /* scanTopRight@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +452,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CF014D1D6AE49E003D763F /* NSDate+LocalDate.m in Sources */,
 				855C24CB1D644A130042D9AD /* ViewController.m in Sources */,
-				85E5ADA01D65457500B3B8BA /* MddHybrid.m in Sources */,
+				85CC7D821D66A13E00B56751 /* CKHScanQRCodeVC.m in Sources */,
+				85E5ADA01D65457500B3B8BA /* MddHybridAPI.m in Sources */,
+				85CF01471D6AE3F7003D763F /* JolyviaAccesser.m in Sources */,
+				85CF014A1D6AE468003D763F /* NSString+Jolyvia.m in Sources */,
 				855C24C81D644A130042D9AD /* AppDelegate.m in Sources */,
 				855C24C51D644A130042D9AD /* main.m in Sources */,
 			);
@@ -429,7 +531,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yong Qin (RC6FHAXV6Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yong Qin (RC6FHAXV6Y)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -472,7 +575,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yong Qin (RC6FHAXV6Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yong Qin (RC6FHAXV6Y)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -497,6 +601,7 @@
 			baseConfigurationReference = 3724749EDD23A6C13242EE03 /* Pods-MddHybrid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yong Qin (RC6FHAXV6Y)";
 				INFOPLIST_FILE = MddHybrid/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -510,6 +615,7 @@
 			baseConfigurationReference = DD081C2F1910B402CCA8E4A4 /* Pods-MddHybrid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yong Qin (RC6FHAXV6Y)";
 				INFOPLIST_FILE = MddHybrid/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
